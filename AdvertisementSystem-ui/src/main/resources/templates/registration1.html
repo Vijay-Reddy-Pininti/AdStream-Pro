@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<title>User Registration form</title>
+</head>
+<body>
+	<form method="post" th:action="@{/users/addUser}"
+		th:object="${newUser}">
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" placeholder="First Name"
+					th:field="*{firstName}" /></td>
+				<td th:if="${#fields.hasErrors('firstName')}"
+					th:errors="*{firstName}">First Name Error</td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" placeholder="Last Name"
+					th:field="*{lastName}" /></td>
+				<td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Last
+					Name Error</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="email" placeholder="Email" th:field="*{email}" />
+				</td>
+				<td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email
+					Error</td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" placeholder="Password"
+					th:field="*{password}" /></td>
+				<td th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password
+					Cannot be Null</td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" id="male" name="gender" value="male"
+					th:field="*{gender}"> <label for="male">Male</label><br>
+					<input type="radio" id="female" name="gender" value="female"
+					th:field="*{gender}"> <label for="female">Female</label><br>
+					<input type="radio" id="other" name="gender" value="other"
+					th:field="*{gender}"> <label for="other">Other</label></td>
+				<td th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}">Please
+					specify your gender</td>
+			</tr>
+			<tr>
+				<td>Contact</td>
+				<td><input type="text" placeholder="Contact"
+					th:field="*{contact}" /></td>
+				<td th:if="${#fields.hasErrors('contact')}" th:errors="*{contact}">Contact
+					connot be less than 10 digits</td>
+			</tr>
+			<tr>
+				<td>Location</td>
+				<td><input type="text" placeholder="Location"
+					th:field="*{location}" /></td>
+				<td th:if="${#fields.hasErrors('location')}" th:errors="*{location}">Please
+					enter a valid Location</td>
+			</tr>
+			<tr>
+				<td>User Role</td>
+				<td><input type="radio" id="user" name="userr" value="user"
+					th:field="*{userRole}"> <label for="user">User</label><br>
+					<input type="radio" id="admin" name="admin" value="admin"
+					th:field="*{userRole}"> <label for="admin">Admin</label><br>
+				</td>
+				<td th:if="${#fields.hasErrors('userRole')}" th:errors="*{userRole}">Please
+					specify your role</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Register" /></td>
+			</tr>
+
+		</table>
+	</form>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+</body>
+</html>
