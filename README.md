@@ -25,6 +25,7 @@ Here are the awesome tools we used:
 ![Microservices](https://img.shields.io/badge/Microservices-FFD700?style=for-the-badge)
 ![Eureka Service](https://img.shields.io/badge/Eureka%20Service-FF6F61?style=for-the-badge)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-web-services&logoColor=white)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
