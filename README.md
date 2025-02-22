@@ -1,16 +1,16 @@
-# Market Exchange: An Online Trading Platform
+# AdStream Pro
 
 
 <!-- MOTIVATION -->
 ## Motivation
 
-The motivation behind "Market Exchange: An Online Trading Platform" lies in creating a seamless and efficient marketplace that connects buyers and sellers directly. By leveraging the power of Java and a microservices architecture, this platform aims to eliminate the need for intermediaries, thereby simplifying the trading process and enhancing user experience. This innovation not only streamlines transactions but also offers scalability and flexibility, addressing the evolving demands of the modern digital marketplace.
+The motivation behind "AdStream Pro" lies in creating a seamless and efficient marketplace that connects buyers and sellers directly. By leveraging the power of Java and a microservices architecture, this platform aims to eliminate the need for intermediaries, thereby simplifying the trading process and enhancing user experience. This innovation not only streamlines transactions but also offers scalability and flexibility, addressing the evolving demands of the modern digital marketplace.
 
 
 <!-- ABOUT THE PROJECT -->
 ## Introduction
 
-Market Exchange is a cutting-edge, Java-based online management system designed to revolutionize the way buyers and sellers interact in the marketplace. This platform facilitates direct item and service exchanges, eliminating intermediaries and enhancing user experience. Built on a robust microservices architecture, it offers unparalleled scalability and flexibility, accommodating thousands of transactions daily. The system emphasizes independent service management, ensuring seamless operation and maintenance for a broad user base.
+AdStream Pro is a cutting-edge, Java-based online management system designed to revolutionize the way buyers and sellers interact in the marketplace. This platform facilitates direct item and service exchanges, eliminating intermediaries and enhancing user experience. Built on a robust microservices architecture, it offers unparalleled scalability and flexibility, accommodating thousands of transactions daily. The system emphasizes independent service management, ensuring seamless operation and maintenance for a broad user base.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -44,4 +44,4 @@ Here are the awesome tools we used:
 <!-- CONCLUSION -->
 ## Conclusion
 
-'Market Exchange: An Online Trading Platform' stands as a testament to the potential of Java-based microservices architecture in transforming online trade. The platform not only meets the current market demands but also sets a new standard for efficiency and user-centric design in digital trading environments.
+'AdStream Pro' stands as a testament to the potential of Java-based microservices architecture in transforming online trade. The platform not only meets the current market demands but also sets a new standard for efficiency and user-centric design in digital trading environments.
